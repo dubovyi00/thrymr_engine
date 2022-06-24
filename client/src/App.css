@@ -1,0 +1,209 @@
+@font-face {
+	font-family: "DM Mono";
+	src: url(/usr/src/app/src/DMMono-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Overpass";
+	src: url(/usr/src/app/src/Overpass-VariableFont_wght.ttf);
+}
+
+@font-face {
+	font-family: "Overpass SemiBold";
+	src: url(/usr/src/app/src/Overpass-SemiBold.ttf);
+}
+
+.window {
+	/* text-align: center; */
+	height: 100%;
+	background-color: #E9E7E7;
+}
+
+header {
+	background-color: #C4C4C4;
+	
+	display: block;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	/* width: 80%;*/
+	font-size: calc(10px + 2vmin);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer {
+	background-color: #C4C4C4;
+	
+	display: block;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	/* width: 80%; */
+	font-size: calc(10px + 2vmin);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.menu {
+	padding-bottom: 5%;
+}
+
+.menu-buttons {
+	padding-top: 6%;
+	padding-bottom: 10%;
+	text-align: center;
+}
+
+.item-input-box {
+	text-align: center;
+	display: block;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid #C4C4C4;
+}
+
+.pack-data {
+	text-align: center;
+	display: block;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #C4C4C4;
+}
+
+.item {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	border: 1px solid #C4C4C4;
+}
+
+.item-info-table {
+	
+	 max-width:70%;
+	overflow:hidden;
+	white-space:nowrap;
+	margin: 0 auto;
+	display: table;
+  	
+}
+
+
+
+.item-info {
+	
+	display: table-cell;
+        width: 25%;
+	vertical-align: top;
+  	
+	border: 1px solid #C4C4C4;
+}
+
+
+.item-count {
+	background-color: #C4C4C4;
+	height: 100%;
+}
+
+td#packs-list {
+	border: 1px solid #C4C4C4;
+}
+
+button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+
+button#info-button {
+	
+	background-color: #C4C4C4;
+	display: inline-block;
+	width: 100%;
+	height: calc(22vmin);
+	
+}
+
+button#menu-button {
+	
+	background-color: #C4C4C4;
+	display: inline-block; 
+	width: 25%;
+	height: calc(8vmin);
+	border: none;
+	text-align: center;
+	white-space:nowrap;
+	
+}
+
+button#menu-button:hover {
+    background-color: #E9E7E7;
+	display: inline-block; 
+	width: 25%;
+	height: calc(8vmin);
+	text-align: center;
+	white-space:nowrap;
+}
+
+button#select-pack-button {
+	
+	background-color: #C4C4C4;
+	display: inline-block;
+	width: 100%;
+}
+
+button#delete-pack{
+	
+	background-color: #C0C0C0;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 12px;
+	text-align: center;
+	align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+	color: #D44A20;
+	text-align: center;
+	font-family: "DM Mono";
+}
+
+h3 {
+	color: #D44A20;
+	text-align: center;
+	font-family: "Overpass SemiBold";
+	font-size: calc(12px + 2vmin);
+}
+
+h4, th {
+	color: #D44A20;
+	text-align: center;
+	font-family: "Overpass SemiBold";
+	font-size: calc(8px + 1.5vmin);
+}
+
+p {
+	color: #D44A20;
+	text-align: center;
+	font-family: "Overpass";
+	font-size: calc(12px + 1vmin);
+}
+
+
+
+input[type="text"] {
+	height: calc(1.75rem + 2px);
+	font-size: 1rem;
+}
+
+input[type="password"] {
+	height: calc(1.75rem + 2px);
+	font-size: 1rem;
+}
